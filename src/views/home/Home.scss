@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../styles/Variable.scss";
+
+
+
+
+@media (min-width: 1440px) {
+    .home-container {
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -13,8 +13,8 @@ function NavScrollExample() {
         <Navbar.Brand className="ms-5" href="#">
         <img
               src={logo}
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               className="d-inline-block align-top"
               alt="M logo"
             />

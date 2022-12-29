@@ -2,7 +2,11 @@
 @import "../../styles/Variable.scss";
 
 
-.buttons-container {
-   
-}
 
+
+@media (min-width: 1440px) {
+    .home-container {
+        display: flex;
+        flex-direction: row;
+    }
+}

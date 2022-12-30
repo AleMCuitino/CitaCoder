@@ -25,11 +25,11 @@ export default function Home() {
             />
           </div>
           <div className="buttons-container gap-5 d-flex justify-content-center align-center">
-            <Link to="/dates">
+            <Link to="/citas">
               <Button className="mt-5 mb-5" variant="light">Ver citas</Button>
             </Link>
-            <Link to="/askdate">
-              <Button className="mt-5 mb-5" variant="dark">Pedir cita</Button>
+            <Link to="/pedircita">
+              <Button className="mt-5 mb-5" variant="dark">Solicitar cita</Button>
             </Link>
           </div>
         </div>

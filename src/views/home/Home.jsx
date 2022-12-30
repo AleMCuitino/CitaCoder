@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../home/Home';
 import Navbar from '../../components/navbar/Navbar';
 import Button from 'react-bootstrap/Button';
@@ -24,8 +25,12 @@ export default function Home() {
             />
           </div>
           <div className="buttons-container gap-5 d-flex justify-content-center align-center">
-            <Button className="mt-5 mb-5" variant="light">Información</Button>
-            <Button className="mt-5 mb-5" variant="dark">Pedir cita</Button>
+            <Link to="/dates">
+              <Button className="mt-5 mb-5" variant="light">Ver citas</Button>
+            </Link>
+            <Link to="/askdate">
+              <Button className="mt-5 mb-5" variant="dark">Pedir cita</Button>
+            </Link>
           </div>
         </div>
       </div>

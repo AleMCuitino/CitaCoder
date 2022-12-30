@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assests/images/Octaedro.svg';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -10,15 +11,17 @@ function NavScrollExample() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand className="ms-5" href="#">
-        <img
+        <Link to="/">
+          <Navbar.Brand className="ms-5" href="#">
+            <img
               src={logo}
               width="40"
               height="40"
               className="d-inline-block align-top"
               alt="M logo"
             />
-        </Navbar.Brand>
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

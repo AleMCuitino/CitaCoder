@@ -28,7 +28,7 @@ export default function Home() {
             <Link to="/citas">
               <Button className="mt-5 mb-5" variant="light">Ver citas</Button>
             </Link>
-            <Link to="/pedircita">
+            <Link to="/solicitar-cita">
               <Button className="mt-5 mb-5" variant="dark">Solicitar cita</Button>
             </Link>
           </div>
